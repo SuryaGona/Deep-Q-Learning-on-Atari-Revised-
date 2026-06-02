@@ -1,7 +1,7 @@
 # Deep Q-Learning on Atari (Pong)
 
 This project implements Deep Q-Learning on the Atari environment **ALE/Pong-v5** using PyTorch.
-I trained **my own DQN baseline** and then implemented a **Double DQN (DDQN)** variant to compare their learning behavior.
+I trained **the DQN baseline** and then implemented a **Double DQN (DDQN)** variant to compare their learning behavior.
 The project follows the structure of the course starter notebook while adding my own experiments, learning curves, and gameplay videos.
 
 ---
@@ -75,7 +75,7 @@ The plot makes it clear that both agents learn, with DDQN outperforming the DQN 
 
 ## Method Summary
 
-1. Implemented a full DQN agent with convolutional architecture (Atari-style CNN).
+1. Built and trained a DQN pipeline in PyTorch with convolutional architecture (Atari-style CNN).
 2. Added Atari preprocessing, grayscale & resizing, and 4-frame stacking.
 3. Implemented DDQN by modifying the TD target:
 
