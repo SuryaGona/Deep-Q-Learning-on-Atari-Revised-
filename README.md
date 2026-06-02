@@ -10,7 +10,7 @@ The project follows the structure of the course starter notebook while adding my
 
 * **Environment:** ALE/Pong-v5
 * **Frameworks:** PyTorch, Gymnasium, Stable Baselines 3 (wrappers)
-* **Baseline agent:** Basline DQN experiment (replay + target network)
+* **Baseline agent:** Baseline DQN experiment (replay + target network)
 * **Variant agent:** Double DQN (online-net action selection + target-net evaluation)
 * **Outputs:** Learning curve plots + gameplay videos (early/random vs learned)
 
